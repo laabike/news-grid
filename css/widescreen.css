@@ -1,0 +1,18 @@
+ /* Align icon to the left */
+ #what .items .item{
+ display: flex;
+ text-align: left;
+ }
+
+ /* Position Icon */
+ #what .items .item i{
+   margin-right: 1.3rem;
+   align-self: center;
+   /* moves the icon image to the center of the bordered background */
+   margin-bottom: 0;
+ }
+
+ /* Repositioning the map and form */
+ #contact .map{
+   flex: 2;
+ }
